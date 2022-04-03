@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53104825207",
+    "project_id": "sundaymart-deliveryboy",
+    "storage_bucket": "sundaymart-deliveryboy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53104825207:android:80ca1d2b12815fd6cbc772",
+        "android_client_info": {
+          "package_name": "com.deliveryboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53104825207-ab7j46ghh4c4de03abpq4eob8o3qoi28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRnn-nkkVrHEWa5xRXWliClqxS5S_IPCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53104825207-ab7j46ghh4c4de03abpq4eob8o3qoi28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

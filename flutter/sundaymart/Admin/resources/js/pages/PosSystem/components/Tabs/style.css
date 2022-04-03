@@ -1,0 +1,146 @@
+.custom-tabs-content {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #fff;
+}
+.tabs {
+    padding: 0 !important;
+    display: flex;
+    margin: 0 !important;
+    margin-bottom: -2px !important;
+    overflow: scroll hidden;
+    transform: rotateX(180deg);
+}
+.tabs::-webkit-scrollbar {
+    height: 4px;
+    border-radius: 4px;
+}
+
+.tabs::-webkit-scrollbar-thumb {
+    background-color: #d9d9d9;
+}
+
+.custom-cart-container::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 4px;
+}
+
+.custom-cart-container::-webkit-scrollbar-thumb {
+    background-color: #d9d9d9;
+}
+
+.tabs li {
+    /* Makes a horizontal row */
+    transform: rotateX(180deg);
+    cursor: pointer;
+    /* So the psueudo elements can be
+       abs. positioned inside */
+    position: relative;
+}
+.tabs span {
+    display: flex;
+    /* Make them block level
+       and only as wide as they need */
+    min-width: 100px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    /* Default colors */
+    color: black;
+
+    /* Only round the top corners */
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tabs .active {
+    /* Highest, active tab is on top */
+    z-index: 3;
+}
+.tabs .active span {
+    width: 110px;
+    /* Colors when tab is active */
+    background: white;
+    color: black;
+}
+.tabs li:before,
+.tabs li:after,
+.tabs li span:before,
+.tabs li span:after {
+    /* All pseudo elements are
+       abs. positioned and on bottom */
+    position: absolute;
+    bottom: 0;
+}
+/* Only the first, last, and active
+     tabs need pseudo elements at all */
+.tabs li:last-child:after,
+.tabs li:last-child span:after,
+.tabs li:first-child:before,
+.tabs li:first-child span:before,
+.tabs .active:after,
+.tabs .active:before,
+.tabs .active span:after,
+.tabs .active span:before {
+    content: "";
+}
+
+.tabs li:first-child:before {
+    background: #f0f5f2 !important;
+}
+.tabs .active:before,
+.tabs .active:after {
+    background: #fff;
+
+    /* Squares below circles */
+    z-index: 1;
+}
+/* Squares */
+.tabs li:before,
+.tabs li:after {
+    /* background: #fff; */
+    width: 10px;
+    height: 10px;
+}
+.tabs li:before {
+    left: -10px;
+}
+.tabs li:after {
+    right: -10px;
+}
+/* Circles */
+.tabs li span:after,
+.tabs li span:before {
+    width: 20px;
+    height: 20px;
+    /* Circles are circular */
+    position: absolute;
+    bottom: 3px;
+    border-radius: 10px;
+    background: #f0f5f2;
+
+    /* Circles over squares */
+    z-index: 2;
+}
+.tabs .active span:after,
+.tabs .active span:before {
+    background: #f0f5f2;
+}
+/* First and last tabs have different
+     outside color needs */
+.tabs li:first-child.active span:before,
+.tabs li:last-child.active span:after {
+    background: #f0f5f2;
+}
+.tabs li span:before {
+    left: -20px;
+}
+.tabs li span:after {
+    right: -20px;
+}
+.closeTab {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}

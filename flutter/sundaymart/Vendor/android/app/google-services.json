@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1084156374123",
+    "project_id": "vendor-8280d",
+    "storage_bucket": "vendor-8280d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084156374123:android:261a61368acca49bb7952e",
+        "android_client_info": {
+          "package_name": "com.sundaymartvendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084156374123-78i0rmh9mie2nsurmo5kspgt5ejeiqj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ssyDV5l1y9-vnzJCsaS8FdjhGgmKLF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084156374123-78i0rmh9mie2nsurmo5kspgt5ejeiqj6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1084156374123-vsghgu96ica17577tlmck3rg6cfpcq6l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sundaymartvendor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

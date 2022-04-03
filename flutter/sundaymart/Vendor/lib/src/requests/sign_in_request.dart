@@ -1,0 +1,36 @@
+import 'dart:convert';
+
+import 'package:vendor/config/global_config.dart';
+import 'package:dio/dio.dart';
+
+Future<Map<String, dynamic>> signInRequest(
+    String email, String password) async {
+  String url = "$globalUrl/login";
+
+  Map<String, String> headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  };
+
+  Map<String, String> body = {"email": email, "password": password};
+
+  Map<String, dynamic> responseJson = {};
+
+  try {
+    Response response = await Dio().post(
+      url,
+      options: Options(headers: headers),
+      data: json.encode(body),
+    );
+
+    try {
+      if (response.statusCode == 200) responseJson = response.data;
+    } on FormatException {
+      //print(e);
+    }
+  } catch (e) {
+    //print(e);
+  }
+
+  return responseJson;
+}

@@ -1,0 +1,315 @@
+.site-page-header,
+.site-layout-background {
+    background-color: #fff !important;
+}
+.rdrDayNumber {
+    width: 42px !important;
+    height: 42px !important;
+    border-radius: 50%;
+    border: 1px solid #f8f8f8;
+}
+.rdrDayToday .rdrDayNumber {
+    background: #45a524 !important;
+}
+.rdrDayToday .rdrDayNumber span {
+    color: #fff !important;
+}
+.rdrDayHovered {
+    border: 0 !important;
+    outline: none !important;
+}
+.rdrMonthAndYearWrapper {
+    position: relative !important;
+}
+.rdrNextPrevButton {
+    position: absolute !important;
+    display: flex !important;
+    background-color: #fff !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.rdrPprevButton {
+    right: 30px !important;
+}
+.rdrNextButton {
+    right: 0 !important;
+}
+.rdrPprevButton i {
+    border: solid black !important;
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block !important;
+    padding: 3px !important;
+    transform: rotate(135deg) !important;
+    -webkit-transform: rotate(135deg) !important;
+}
+
+.rdrNextButton i {
+    border: solid black !important;
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block !important;
+    padding: 3px !important;
+    transform: rotate(-45deg) !important;
+    -webkit-transform: rotate(-45deg) !important;
+}
+
+.rdrMonthAndYearPickers {
+    position: absolute !important;
+    left: 10px !important;
+    font-size: 20px !important;
+}
+.rdrDayToday .rdrDayNumber span:after {
+    content: "";
+
+    background: none !important;
+}
+.rdrDay {
+    height: auto !important;
+}
+.rdrSelected {
+    width: 42px !important;
+    height: 42px !important;
+    left: 0 !important;
+    right: 0 !important;
+    border-radius: 50% !important;
+}
+.rdrDays {
+    min-height: 270px;
+}
+.rdrMonths .rdrMonthsVertical {
+    width: 100% !important;
+}
+.rdrCalendarWrapper {
+    width: 100% !important;
+}
+.rdrMonth {
+    width: 100% !important;
+}
+.rdrMonthAndYearWrapper {
+    height: unset;
+}
+.rdrDateDisplayWrapper {
+    background-color: inherit;
+}
+
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+
+.rdrMonth {
+    width: 23em;
+}
+
+.rdrStartEdge {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.rdrEndEdge {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rdrDayEndOfMonth .rdrInRange,
+.rdrDayEndOfMonth .rdrStartEdge,
+.rdrDayEndOfWeek .rdrInRange,
+.rdrDayEndOfWeek .rdrStartEdge {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rdrDayStartOfMonth .rdrInRange,
+.rdrDayStartOfMonth .rdrEndEdge,
+.rdrDayStartOfWeek .rdrInRange,
+.rdrDayStartOfWeek .rdrEndEdge {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.rdrDayHovered {
+    border: 0 !important;
+    outline: none !important;
+}
+
+.rdrDayToday .rdrDayNumber span:after {
+    content: unset;
+}
+
+.replace-row {
+    background-color: #ffccc7;
+}
+.new-row {
+    background-color: #b7eb8f;
+}
+
+.g-header-right {
+    margin-left: auto;
+}
+
+#g-header .nav-item {
+    padding: 0 15px;
+}
+
+.ant-input,
+.ant-input-affix-wrapper,
+.login .ant-btn {
+    border-radius: 5px !important;
+}
+
+.ant-card {
+    border-radius: 10px !important;
+}
+
+.nav-text {
+    text-decoration: none !important;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.ant-picker,
+.ant-input-number {
+    width: 100% !important;
+    border-radius: 5px !important;
+}
+
+.defaultLabel {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+}
+
+.chat-button {
+    width: 50px;
+    height: 50px;
+    right: 30px !important;
+    bottom: 50px !important;
+    left: auto !important;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014,
+        0 9px 28px 8px #0000000d;
+    transition: color 0.3s;
+    justify-content: center;
+    display: grid;
+}
+
+.custom-card {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px !important;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.custom-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.custom-container::-webkit-scrollbar {
+    /*width: 4px;*/
+    /*border-radius: 4px;*/
+    display: none;
+}
+
+/*.custom-container::-webkit-scrollbar-thumb {*/
+/*    background-color: #d9d9d9;*/
+/*}*/
+.custom-success-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #16aa16 !important;
+    border: none !important;
+    color: #fff !important;
+}
+.custom-success-btn:hover {
+    background-color: #2bc72b !important;
+}
+
+.custom-danger-btn {
+    background-color: #fceef1 !important;
+    border: none !important;
+    color: #d21234 !important;
+}
+.custom-danger-btn:hover {
+    background-color: #f7d2da !important;
+}
+.custom-primary-btn {
+    padding: 12px 30px;
+    background-color: #16aa16;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.custom-primary-btn:hover {
+    background-color: #28ca28;
+}
+.custom-secondary-btn {
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #262626;
+    border-radius: 15px;
+}
+.custom-select-component {
+    padding: 10px 20px;
+    background: #fafafa;
+    border-radius: 18px;
+    color: #2e3456;
+}
+.stock-count {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #16aa16;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.plus-button {
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: all 200ms ease;
+    background-color: transparent;
+    top: 50%;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.custom-card:hover {
+    cursor: pointer;
+}
+
+.custom-card:hover .plus-button {
+    display: flex;
+}
+.plus-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tabs {
+    overflow: hidden!important;
+}
+
+.table-row-danger {
+    background-color: rgba(227, 52, 47, 0.1) !important;
+}
+.table-row-warning {
+    background-color: rgba(255, 237, 74, 0.1) !important;
+}
+.ant-spin-container {
+    width: 100%!important;
+}
