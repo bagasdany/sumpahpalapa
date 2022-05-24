@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 be8b11247a224c64c3c006066409f212f3ce5d27 EmilK <emil101nk@gmail.com> 1652171916 +0700	commit (initial): initial commit
+be8b11247a224c64c3c006066409f212f3ce5d27 e18ff44e3121a4256e0498a64a3d939ca49a3596 EmilK <emil101nk@gmail.com> 1652258017 +0700	commit: barebones built
+e18ff44e3121a4256e0498a64a3d939ca49a3596 5dce0a56518e7ae8ebd37c88e44c036e972bfee0 EmilK <emil101nk@gmail.com> 1652344201 +0700	commit: downgrade target sdk from 31 to 29 because it doesnt run on older phones
+5dce0a56518e7ae8ebd37c88e44c036e972bfee0 09e53071394a59cb02725425665c634a1d4f8bac EmilK <emil101nk@gmail.com> 1652344306 +0700	commit: fix category icon tap not assigned properly
+09e53071394a59cb02725425665c634a1d4f8bac 39808c57ead4f337c27f60c734978e0ed569566b EmilK <emil101nk@gmail.com> 1652344319 +0700	commit: add basic screen structur (scaffold, list of cards)
+39808c57ead4f337c27f60c734978e0ed569566b 57d31aabbe3d71da9c18b8987972458336e0305b EmilK <emil101nk@gmail.com> 1652432092 +0700	commit: wrap AppbarGradient in SafeArea to not cut on notched devices
+57d31aabbe3d71da9c18b8987972458336e0305b 2b333fbeed6367bb078a71afb9860a4a78120b19 EmilK <emil101nk@gmail.com> 1652432181 +0700	commit: add interactive functions (tapping and form field, etc)
+2b333fbeed6367bb078a71afb9860a4a78120b19 ca544b31cea689fe52ae10827561975089b1dd29 EmilK <emil101nk@gmail.com> 1652766855 +0700	commit: add more placeholders to details page

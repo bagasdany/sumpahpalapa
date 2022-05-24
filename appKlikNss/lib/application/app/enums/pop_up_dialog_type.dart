@@ -1,0 +1,4 @@
+enum PopUpDialogType {
+  base,
+  confirmation,
+}

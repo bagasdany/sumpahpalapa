@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://emilkanadii:Upinipin30@github.com/emilkanadii/mobileapp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

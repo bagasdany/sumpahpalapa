@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../aset"
+		},
+		{
+			"path": "../../../../../UI/trevashop_v2_null_safety"
+		}
+	],
+	"settings": {}
+}

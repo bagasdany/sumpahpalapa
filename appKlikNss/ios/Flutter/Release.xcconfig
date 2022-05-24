@@ -1,0 +1,10 @@
+
+Showing Recent Issues
+Unable to load contents of file list: '/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Debug-input-files.xcfilelist'
+
+'
+Showing Recent Issues
+Unable to load contents of file list: '/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Debug-input-files.xcfilelist'
+
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
